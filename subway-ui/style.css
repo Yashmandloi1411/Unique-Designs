@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+#nav {
+  padding: 20px 30px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+}
+#nav a {
+  text-decoration: none;
+  color: #fff;
+  gap: 10px;
+  margin: auto;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+#nav a:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+#main > h1 {
+  text-align: center;
+  font-size: 120px;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0 20px #ffcc00, 0 0 40px #ff6600;
+  animation: glow 2s infinite alternate;
+}
+
+.btnleft {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+
+  padding: 10px 20px;
+}
+
+.btnleft p {
+  width: 250px;
+  height: 65px;
+}
+.btnright {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  padding: 10px 20px;
+}
+.btnleft,
+.btnright {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.btnleft:hover,
+.btnright:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#main img {
+  position: absolute;
+  height: 300px;
+  object-fit: contain;
+  overflow: hidden;
+  /* animation: float 3s ease-in-out infinite; */
+}
+.img1 {
+  top: 26%;
+  left: 55%;
+  z-index: 1;
+  animation: spikeAnim 2.5s ease-in-out infinite;
+}
+.img2 {
+  top: 45%;
+  left: 70%;
+  animation: jakeAnim 2.5s ease-in-out infinite;
+}
+.img3 {
+  top: 45%;
+  left: 42%;
+  animation: jennyAnim 2.5s ease-in-out infinite;
+}
+
+@keyframes jakeAnim {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-15px) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-15px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes jennyAnim {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  20% {
+    transform: translateX(-15px) rotate(-10deg);
+  }
+  40% {
+    transform: translateX(15px) rotate(10deg);
+  }
+  60% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+  80% {
+    transform: translateX(10px) rotate(5deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+@keyframes spikeAnim {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  20% {
+    transform: translateX(-10px) rotate(-8deg);
+  }
+  40% {
+    transform: translateX(10px) rotate(8deg);
+  }
+  60% {
+    transform: translateX(-6px) rotate(-5deg);
+  }
+  80% {
+    transform: translateX(6px) rotate(5deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff6600;
+  }
+  to {
+    text-shadow: 0 0 25px #ff6600, 0 0 50px #ff3300;
+  }
+}
+@keyframes surf {
+  0% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  25% {
+    transform: translateY(-12px) rotate(-5deg) scale(1.05);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  75% {
+    transform: translateY(-12px) rotate(5deg) scale(1.05);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
