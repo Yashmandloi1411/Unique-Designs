@@ -21,7 +21,7 @@ Here, I explore animations, 3D visuals, micro-interactions, and responsive desig
 
 | # | Project Name | Tech | Live Demo |
 |---|--------------|------|-----------|
-| 01 | 🏙️ Subway UI | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/01-subway-ui/) |
+| 01 | 🏙️ Subway UI | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/subway-ui/) |
 
 > Each project is designed to push the boundaries of **frontend creativity**, with smooth animations, modern layouts, and micro-interactions.
 
