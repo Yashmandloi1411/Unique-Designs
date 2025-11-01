@@ -23,7 +23,7 @@ Here, I explore animations, 3D visuals, micro-interactions, and responsive desig
 |---|--------------|------|-----------|
 | 01 | 🏙️ Subway UI | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/subway-ui/) |
 | 02 | 📱 Iphone UI | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/iphone/) |
-| 03 | 💖 Iphone UI | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/DribbbleCard/) |
+| 03 | 💖 Dribbble Card | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/DribbbleCard/) |
 
 
 
