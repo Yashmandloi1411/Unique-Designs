@@ -24,7 +24,7 @@ Here, I explore animations, 3D visuals, micro-interactions, and responsive desig
 | 01 | 🏙️ Subway UI | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/subway-ui/) |
 | 02 | 📱 Iphone UI | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/iphone/) |
 | 03 | 💖 Dribbble Card | CSS | [Live Demo](https://yashmandloi1411.github.io/Unique-Designs/DribbbleCard/) |
-
+| 04 | 💅 Sassy-hover effect | SCSS | [Live Demo](https://github.com/Yashmandloi1411/Unique-Designs/tree/main/sassy) |
 
 
 > Each project is designed to push the boundaries of **frontend creativity**, with smooth animations, modern layouts, and micro-interactions.
